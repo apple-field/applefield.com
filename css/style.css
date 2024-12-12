@@ -1,0 +1,652 @@
+@charset "UTF-8";
+
+body{
+    font-size: 10px;
+    color:#000;
+    background-color: #f2f2f2; 
+
+}
+a{
+    transition: .3s;
+}
+a:hover{
+    opacity: .7;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+
+    
+}
+.wrap{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* header */
+
+.header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+}
+.header .nav{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+
+}
+.header .nav .menu{
+    margin: 0 10px;  
+}
+.header .head-text{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    color: #00b0f0;
+    font-size: 3rem;
+    text-align: right;
+    margin: auto;
+    
+    
+}
+
+/* Profile */
+#profile{
+    margin-top: 50px;
+}
+.sec-title{
+    font-size: 4rem;
+}
+.sec-title span{
+    color: #00b0f0;
+    letter-spacing: 2rem;
+}
+.profile-area{
+    background-color: #fff;
+    border: solid 3px #00b0f0;
+    border-radius: 40px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    
+
+}
+/* profile 左側 */
+.profile-area .pro-reft{
+    width: 50%;
+    text-align: center;
+    margin: auto 0;
+}
+.profile-area .pro-reft .profile-img{
+    border: solid 3px #000;
+    border-radius: 50%;
+    width: 200px;
+}
+.profile-area .pro-reft .name-jp{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.profile-area .pro-reft .name-en{
+    color: #00b0f0;
+    font-size: 2rem;
+}
+
+/* Profile 右側 */
+.profile-area .pro-right{
+    width: 50%;
+    text-align: center;
+    margin: auto 0 ;
+    font-size: 1rem;
+}
+.profile-area .pro-right .list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile-area .pro-right .list dt{
+    width: 20%;
+    color: #00b0f0;
+    margin: 15px 0;
+    text-align: left;
+}
+.profile-area .pro-right .list dd{
+    width: 80%;
+    margin: 15px 0;
+    text-align: left;
+}
+
+/* career */
+#career{
+    margin: 200px 0 50px 0;
+    
+}
+#career .sec-title{
+    margin-bottom: 70px;
+}
+#career .wrap{
+    font-size: 1rem;
+    background-color: #d9d9d9;
+    position: relative;
+    padding: 30px 0 0 0;
+}
+#career .car-img{
+    position: absolute;
+    top: -330px;
+    right: 0%;
+    width: 300px;
+}
+#career .car-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+
+}
+#career .car-list dt{
+    width: 30%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+    padding: 0 0 20px 20px;
+}
+#career .car-list dd{
+    width: 70%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+    padding: 0 20px 20px 0;
+}
+#career .car-area{
+    margin: 50px 0 0 0;
+
+}
+#career .car-area .title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #00b0f0;
+}
+#career .car-area .flex{
+    margin: 50px 30px 30px 70px;
+    display: flex;
+    justify-content: center;
+}
+#career .car-area .flex .car-left{
+    width: 50%;
+}
+#career .car-area .flex .car-left p{
+    margin-top: 20px;
+}
+#career .car-area .flex .car-left .carlist{
+    margin-left: 20px;
+}
+#career .car-area .flex .car-left .carlist li{
+    list-style-type: square;
+    margin-bottom: 20px;
+
+}
+#career .car-area .flex .car-right{
+    width: 30%;
+    
+}
+#career .car-area .flex .car-right .car-imge{
+    width: 300px;
+}
+#career .car-area .flex .car-left2{
+    width: 40%;
+}
+#career .car-area .flex .car-left2 .car-imge{
+    margin-bottom: 20px;
+}
+#career .car-area .flex .car-right2{
+    width: 50%;
+    padding-left: 30px;
+    
+}
+#career .car-area .flex .car-right2 p:first-child{
+    margin-top: 50px;
+}
+#career .car-area .flex .car-right2 p:nth-child(2){
+    margin-top: 20px;
+}
+#career .car-area .flex .car-right2 .carlist{
+    margin-left: 20px;
+}
+#career .car-area .flex .car-right2 .carlist li{
+    list-style-type: square;
+    margin-bottom: 30px;
+
+}
+/* skillset */
+#skillset .wrap .title{
+    color: #00b0f0;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 50px 0 30px; 
+}
+#skillset .wrap .text{
+    font-size: 1rem;
+}
+#skillset .wrap .un-flex{
+    display: flex;
+    justify-content:end;
+    margin-bottom: 30px;
+}
+#skillset .wrap .un-flex .skill-left{
+    width: 15%;
+    margin: 10px 30px;
+}
+#skillset .wrap .un-flex .skill-right{
+    width: 75%;
+    margin: auto 0;
+    line-height: 2rem;
+    
+}
+
+
+
+
+
+
+#skillset .wrap .flex{
+    display: flex;
+    margin: 20px 0 50px 0;
+    gap: 30px;
+}
+#skillset .wrap .flex .demo-text{
+    margin-bottom: 0;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+}
+#skillset .wrap .flex .demo-img{
+    width: 50%;
+    object-fit: contain;
+}
+#skillset .wrap .flex .demo-text .text{
+    line-height: 2rem;
+}
+#skillset .wrap .flex .demo-text .btn{
+    background-color: #bfbfbf;
+    width: 150px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin:  auto;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#skillset .wrap .flex .demo-text .btn:hover{
+    background-color: #fff;
+    color: #00b0f0;
+    border: solid 2px #00b0f0;
+    
+    
+}
+#skillset .wrap .flex .demo-text .btn a{
+    transition: none;
+}
+#skillset .wrap .flex .demo-text .btn a:hover{
+    opacity: 1;
+}
+
+/* ----自己PR--- */
+#myproduce{
+    margin-bottom: 50px;
+}
+#myproduce .wrap .text{
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: 30px 0 ;
+}
+
+/* ----footer---- */
+#contact{ 
+    background-color: #fff;
+}
+#contact .footer-title{
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+#contact .flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 10px;
+    margin: 30px 0;
+}
+#contact .flex .footer-flex{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#contact .flex .footer-flex .footer-img{
+    width: 80px;
+}
+#contact .flex .footer-flex .text{
+    font-size: 1.5rem;
+    margin: auto 0;
+}
+#contact .copy{
+    text-align: center;
+    font-size: 1rem;
+} 
+
+
+
+
+
+
+
+
+/* レスポンシブ */
+
+/* 601px-900px */
+@media screen and (max-width:900px) {
+
+    .wrap{
+        padding: 0 20px;
+    }
+
+    /* header */
+    .header{
+        font-size: 1rem;
+
+    }
+    .header .head-text{
+        font-size: 2rem;
+    }
+    /* profile */
+    .sec-title{
+        font-size: 3rem;
+    
+    }
+    .sec-title span{
+        letter-spacing: 1rem;
+    }
+    .profile-area{
+        margin: 20px 10px;
+        height: 300px;
+    }
+    .profile-area .pro-reft .profile-img{
+        border: solid 2px #000;
+        width: 150px;
+    }
+    .profile-area .pro-reft .name-jp{
+        font-size: 2rem;
+    }
+    .profile-area .pro-reft .name-en{
+        font-size: 1rem;
+    }
+    .profile-area .pro-right{
+        font-size: .7rem;
+    }
+
+    /* career */
+    #career{
+        margin: 150px 0 0 0;
+    }
+    #career .car-img{
+        top: -220px;
+        width: 200px;
+    }
+    #career .sec-title{
+        margin-bottom: 50px;
+    }
+    #career .wrap{
+        font-size: .7rem;
+        padding: 20px 0 0 0;
+    }
+    #career .car-list{
+        padding: 0 30px;
+    }
+    #career .car-area{
+        margin: 30px 0 0;
+    
+    }
+    #career .car-area .title{
+        font-size: 1.5rem;
+    }
+    #career .car-area .flex{
+        margin: 40px 20px 20px 40px;
+    }
+
+
+    #career .car-area .flex .car-left2{
+        width: 30%;
+    }
+    #career .car-area .flex .car-left2 .car-imge{
+        margin-bottom: 10px;
+    }
+    #career .car-area .flex .car-right2{
+        width: 50%;
+        padding-left: 20px;
+        
+    }
+    #career .car-area .flex .car-right2 p:first-child{
+        margin-top: 30px;
+    }
+    #career .car-area .flex .car-right2 p:nth-child(2){
+        margin-top: 10px;
+    }
+    #career .car-area .flex .car-right2 .carlist{
+        margin-left: 20px;
+    }
+    #career .car-area .flex .car-right2 .carlist li{
+        margin-bottom: 15px;
+    
+    }
+    /* ---skillset--- */
+    #skillset .wrap .title{
+        font-size: 1.5rem;
+        margin: 30px 0 10px;
+    }
+    #skillset .wrap .text{
+        font-size: .7rem;
+    }
+    #skillset .wrap .un-flex{
+        margin-bottom: 10px;
+    }
+    #skillset .wrap .un-flex .skill-left{
+        margin: 10px;
+    }
+    #skillset .wrap .un-flex .skill-right{
+        line-height: 1.5rem;
+        
+    }
+    #skillset .wrap .flex{
+        flex-flow: column;
+        margin: 20px 0 40px 0;
+        gap: 20px;
+    }
+    #skillset .wrap .flex:nth-last-of-type(1){
+        flex-direction:column-reverse;
+    }
+
+    #skillset .wrap .flex .demo-text{
+        width: 100%;
+    }
+    #skillset .wrap .flex .demo-img{
+        width: 100%;   
+    }
+    #skillset .wrap .flex .demo-text .text{
+        line-height: 1.5rem;
+    }
+    #skillset .wrap .flex .demo-text .btn{
+        width: 100px;
+        font-size: .7rem;
+        margin-top: 20px;
+    }
+
+    /* --自己PR--- */
+    #myproduce{
+        margin-bottom: 50px;
+    }
+    #myproduce .wrap .text{
+        font-size: .7rem;
+        line-height: 1.5rem;
+        margin: 30px 0 ;
+    }
+
+    /* ---contact--- */
+    #contact .footer-title{
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+    #contact .flex{
+        display: flex;
+        flex-flow: column;
+    }
+    #contact .copy{
+        font-size: .7rem;
+    } 
+
+    
+
+
+}
+
+/* -600px */
+@media screen and (max-width:600px) {
+    .wrap{
+        padding: 0 10px;
+    }
+    /* header */
+    .header{
+        font-size: .5rem;
+
+    }
+    .header .head-text{
+        font-size: 1rem;
+
+    }
+
+    /* profile */
+    .sec-title{
+        font-size: 2rem;
+    }
+    .sec-title span{
+        letter-spacing: .5rem;
+    }
+    .profile-area{
+        margin: 10px 5px;
+        height: 200px;
+    }
+    .profile-area .pro-reft .profile-img{
+        border: solid 2px #000;
+        width: 100px;
+    }
+    .profile-area .pro-reft .name-jp{
+        font-size: 1rem;
+    }
+    .profile-area .pro-reft .name-en{
+        font-size: .7rem;
+    }
+    .profile-area .pro-right{
+        font-size: .5rem;
+    }
+
+    /* career */
+    #career{
+        margin: 100px 0 0 0;
+    }
+    #career .car-img{
+        top: -165px;
+        width: 150px;
+    }
+
+    #career .sec-title{
+        margin-bottom: 50px;
+    }
+    #career .wrap{
+        font-size: .5rem;
+        padding: 10px 0 0 0;
+    }
+    #career .car-list{
+        padding: 0 10px;
+    }
+    #career .car-area{
+        margin: 10px 0 0 0;
+    
+    }
+    #career .car-area .title{
+        font-size: 1rem;
+
+    }
+    #career .car-area .flex{
+        margin: 30px 10px 20px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: .5rem;
+    }
+    #career .car-area .flex .car-left p{
+        margin-top: 10px;
+    }
+    #career .car-area .flex .car-left .carlist{
+        margin-left: 10px;
+    }
+    #career .car-area .flex .car-left .carlist li{
+        margin-bottom: 10px;
+    
+    }
+    #career .car-area .flex .car-right2 p:first-child{
+        margin-top: 0px;
+    }
+    #career .car-area .flex .car-right2 p:nth-child(2){
+        margin-top: 10px;
+    }
+    #career .car-area .flex .car-right2 .carlist li{
+        margin-bottom: 10px;
+    
+    }
+
+    /* ---skillset--- */
+    #skillset .wrap .title{
+        font-size: 1rem;
+        margin: 10px 0 ;
+    }
+    #skillset .wrap .text{
+        font-size: .5rem;
+    }
+    #skillset .wrap .un-flex .skill-right{
+        line-height: 1rem;
+        
+    }
+    #skillset .wrap .flex{
+        margin: 20px 0;
+        gap: 10px;
+    }
+    #skillset .wrap .flex .demo-text .text{
+        line-height: 1rem;
+    }
+    #skillset .wrap .flex .demo-text .btn{
+        width: 100px;
+        font-size: .7rem;
+    }
+    /* --contact-- */
+    #contact .flex .footer-flex .footer-img{
+        width: 50px;
+    }
+    #contact .flex .footer-flex .text{
+        font-size: 1rem;
+    }
+    #contact .flex{
+        gap: 10px;
+        margin: 10px 0;
+    }
+
+
+
+
+    
+    
+
+
+}
+
+
